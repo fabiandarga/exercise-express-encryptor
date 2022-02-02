@@ -1,6 +1,6 @@
 import CryptoJS from 'crypto-js';
 
-const SECRET_KEY= "SecretPassword123";
+const SECRET_KEY = process.env.CRYPTO_KEY || '';
 
 /**
  * Convets Text to encrypted string
