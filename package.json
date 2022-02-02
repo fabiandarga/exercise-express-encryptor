@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "develop": "nodemon index.js",
+    "start": "node server.js",
+    "develop": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/fabiandarga/exercise-express-encryptor#readme",
   "dependencies": {
+    "crypto-js": "^4.1.1",
     "express": "^4.17.2"
   }
 }
